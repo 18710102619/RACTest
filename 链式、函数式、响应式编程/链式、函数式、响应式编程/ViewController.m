@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSObject+Calculator.h"
 #import "Calculator.h"
+#import "RACTest.h"
 
 @interface ViewController ()
 
@@ -45,7 +46,10 @@
     }];
     NSLog(@"isEqual:%d",isEqual);
     
-        
+    
+    //[RACTest testRACSignal];
+    [RACTest testRACSubject];
+    
 }
 
 @end
