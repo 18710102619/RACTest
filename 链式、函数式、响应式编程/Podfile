@@ -8,7 +8,8 @@ target '链式、函数式、响应式编程' do
   # Pods for 链式、函数式、响应式编程
   
   pod'ReactiveObjC'
-
+  pod'Masonry'
+  
   target '链式、函数式、响应式编程Tests' do
     inherit! :search_paths
     # Pods for testing
